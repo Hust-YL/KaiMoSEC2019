@@ -28,3 +28,4 @@ C:\Users\Unlimited Secret\Desktop\Temp\TeamWork\通用面积计算器\通用面�
 C:\Users\Unlimited Secret\Desktop\Temp\TeamWork\通用面积计算器\通用面积计算器\通用面积计算器\obj\Debug\通用面积计算器.csproj.CoreCompileInputs.cache
 C:\Users\Unlimited Secret\Desktop\Temp\TeamWork\通用面积计算器\通用面积计算器\通用面积计算器\obj\Debug\通用面积计算器.exe
 C:\Users\Unlimited Secret\Desktop\Temp\TeamWork\通用面积计算器\通用面积计算器\通用面积计算器\obj\Debug\通用面积计算器.pdb
+C:\Users\Unlimited Secret\Desktop\Temp\TeamWork\通用面积计算器\通用面积计算器\通用面积计算器\obj\Debug\HW2Test.通用面积计算器.resources
