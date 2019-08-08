@@ -136,5 +136,15 @@ namespace 通用面积计算器
             if (comboBox1.SelectedItem == "无")
                 MessageBox.Show("请选择一种图形");
         }
+
+        private void Label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TextBox4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

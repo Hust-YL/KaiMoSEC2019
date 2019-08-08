@@ -18,3 +18,13 @@ C:\Users\82798\Desktop\暑期训练营\第二次\通用面积计算器\通用面
 C:\Users\82798\Desktop\暑期训练营\第二次\通用面积计算器\通用面积计算器\通用面积计算器\obj\Debug\通用面积计算器.csproj.CoreCompileInputs.cache
 C:\Users\82798\Desktop\暑期训练营\第二次\通用面积计算器\通用面积计算器\通用面积计算器\obj\Debug\通用面积计算器.exe
 C:\Users\82798\Desktop\暑期训练营\第二次\通用面积计算器\通用面积计算器\通用面积计算器\obj\Debug\通用面积计算器.pdb
+C:\Users\Unlimited Secret\Desktop\Temp\TeamWork\通用面积计算器\通用面积计算器\通用面积计算器\bin\Debug\通用面积计算器.exe.config
+C:\Users\Unlimited Secret\Desktop\Temp\TeamWork\通用面积计算器\通用面积计算器\通用面积计算器\bin\Debug\通用面积计算器.exe
+C:\Users\Unlimited Secret\Desktop\Temp\TeamWork\通用面积计算器\通用面积计算器\通用面积计算器\bin\Debug\通用面积计算器.pdb
+C:\Users\Unlimited Secret\Desktop\Temp\TeamWork\通用面积计算器\通用面积计算器\通用面积计算器\obj\Debug\通用面积计算器.csprojAssemblyReference.cache
+C:\Users\Unlimited Secret\Desktop\Temp\TeamWork\通用面积计算器\通用面积计算器\通用面积计算器\obj\Debug\通用面积计算器.Form1.resources
+C:\Users\Unlimited Secret\Desktop\Temp\TeamWork\通用面积计算器\通用面积计算器\通用面积计算器\obj\Debug\通用面积计算器.Properties.Resources.resources
+C:\Users\Unlimited Secret\Desktop\Temp\TeamWork\通用面积计算器\通用面积计算器\通用面积计算器\obj\Debug\通用面积计算器.csproj.GenerateResource.cache
+C:\Users\Unlimited Secret\Desktop\Temp\TeamWork\通用面积计算器\通用面积计算器\通用面积计算器\obj\Debug\通用面积计算器.csproj.CoreCompileInputs.cache
+C:\Users\Unlimited Secret\Desktop\Temp\TeamWork\通用面积计算器\通用面积计算器\通用面积计算器\obj\Debug\通用面积计算器.exe
+C:\Users\Unlimited Secret\Desktop\Temp\TeamWork\通用面积计算器\通用面积计算器\通用面积计算器\obj\Debug\通用面积计算器.pdb
