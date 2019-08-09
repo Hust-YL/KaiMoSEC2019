@@ -1,12 +1,13 @@
 ﻿using System;
 
-namespace 通用面积计算器
+namespace Calculator
 {
     public class InchToCentimetre
     {
-        float Transform(float x)
+        double Transform(double inch_x)
         {
-            return x * 2.54;
+            double cemtimetre = inch_x * 2.54;
+            return cemtimetre;
         }
     }
 }

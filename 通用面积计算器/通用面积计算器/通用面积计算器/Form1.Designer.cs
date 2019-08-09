@@ -1,6 +1,6 @@
-﻿namespace HW2Test
+﻿namespace Calculator
 {
-    partial class 通用面积计算器
+    partial class Form1
     {
         /// <summary>
         /// 必需的设计器变量。
@@ -28,119 +28,127 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.button1 = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.button5 = new System.Windows.Forms.Button();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
+            this.upGroupBox = new System.Windows.Forms.GroupBox();
+            this.helpButton = new System.Windows.Forms.Button();
+            this.SaveHistoryButton = new System.Windows.Forms.Button();
+            this.showHistoryButton = new System.Windows.Forms.Button();
+            this.unitLabel = new System.Windows.Forms.Label();
+            this.inchRadioButton = new System.Windows.Forms.RadioButton();
+            this.centimetreRadioButton = new System.Windows.Forms.RadioButton();
+            this.resectButton = new System.Windows.Forms.Button();
+            this.selectComboBox = new System.Windows.Forms.ComboBox();
+            this.downGroupBox = new System.Windows.Forms.GroupBox();
+            this.calculateButton = new System.Windows.Forms.Button();
+            this.resultTextBox = new System.Windows.Forms.TextBox();
+            this.parameterLabelThree = new System.Windows.Forms.Label();
+            this.parameterTextBoxThree = new System.Windows.Forms.TextBox();
+            this.parameterLabelTwo = new System.Windows.Forms.Label();
+            this.parameterTextBoxTwo = new System.Windows.Forms.TextBox();
+            this.parameterLabelOne = new System.Windows.Forms.Label();
+            this.parameterTextBoxOne = new System.Windows.Forms.TextBox();
+            this.upGroupBox.SuspendLayout();
+            this.downGroupBox.SuspendLayout();
             this.SuspendLayout();
             // 
-            // groupBox1
+            // upGroupBox
             // 
-            this.groupBox1.Controls.Add(this.button4);
-            this.groupBox1.Controls.Add(this.button3);
-            this.groupBox1.Controls.Add(this.button2);
-            this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.radioButton2);
-            this.groupBox1.Controls.Add(this.radioButton1);
-            this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Controls.Add(this.comboBox1);
-            this.groupBox1.Location = new System.Drawing.Point(15, 15);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(351, 173);
-            this.groupBox1.TabIndex = 8;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Tag = "r";
-            this.groupBox1.Text = "设置";
-            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
+            this.upGroupBox.Controls.Add(this.helpButton);
+            this.upGroupBox.Controls.Add(this.SaveHistoryButton);
+            this.upGroupBox.Controls.Add(this.showHistoryButton);
+            this.upGroupBox.Controls.Add(this.unitLabel);
+            this.upGroupBox.Controls.Add(this.inchRadioButton);
+            this.upGroupBox.Controls.Add(this.centimetreRadioButton);
+            this.upGroupBox.Controls.Add(this.resectButton);
+            this.upGroupBox.Controls.Add(this.selectComboBox);
+            this.upGroupBox.Location = new System.Drawing.Point(13, 12);
+            this.upGroupBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.upGroupBox.Name = "upGroupBox";
+            this.upGroupBox.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.upGroupBox.Size = new System.Drawing.Size(312, 144);
+            this.upGroupBox.TabIndex = 8;
+            this.upGroupBox.TabStop = false;
+            this.upGroupBox.Tag = "r";
+            this.upGroupBox.Text = "设置";
             // 
-            // button4
+            // helpButton
             // 
-            this.button4.Location = new System.Drawing.Point(234, 107);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(95, 42);
-            this.button4.TabIndex = 4;
-            this.button4.Text = "查看帮助";
-            this.button4.UseVisualStyleBackColor = true;
+            this.helpButton.Location = new System.Drawing.Point(208, 89);
+            this.helpButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.helpButton.Name = "helpButton";
+            this.helpButton.Size = new System.Drawing.Size(84, 35);
+            this.helpButton.TabIndex = 4;
+            this.helpButton.Text = "查看帮助";
+            this.helpButton.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // SaveHistoryButton
             // 
-            this.button3.Location = new System.Drawing.Point(127, 107);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(95, 42);
-            this.button3.TabIndex = 4;
-            this.button3.Text = "保存记录";
-            this.button3.UseVisualStyleBackColor = true;
+            this.SaveHistoryButton.Location = new System.Drawing.Point(113, 89);
+            this.SaveHistoryButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.SaveHistoryButton.Name = "SaveHistoryButton";
+            this.SaveHistoryButton.Size = new System.Drawing.Size(84, 35);
+            this.SaveHistoryButton.TabIndex = 4;
+            this.SaveHistoryButton.Text = "保存记录";
+            this.SaveHistoryButton.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // showHistoryButton
             // 
-            this.button2.Location = new System.Drawing.Point(20, 107);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(95, 42);
-            this.button2.TabIndex = 4;
-            this.button2.Text = "查看记录";
-            this.button2.UseVisualStyleBackColor = true;
+            this.showHistoryButton.Location = new System.Drawing.Point(18, 89);
+            this.showHistoryButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.showHistoryButton.Name = "showHistoryButton";
+            this.showHistoryButton.Size = new System.Drawing.Size(84, 35);
+            this.showHistoryButton.TabIndex = 4;
+            this.showHistoryButton.Text = "查看记录";
+            this.showHistoryButton.UseVisualStyleBackColor = true;
             // 
-            // label1
+            // unitLabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(17, 72);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(134, 18);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "输入参数单位：";
+            this.unitLabel.AutoSize = true;
+            this.unitLabel.Location = new System.Drawing.Point(15, 60);
+            this.unitLabel.Name = "unitLabel";
+            this.unitLabel.Size = new System.Drawing.Size(112, 15);
+            this.unitLabel.TabIndex = 3;
+            this.unitLabel.Text = "输入参数单位：";
             // 
-            // radioButton2
+            // inchRadioButton
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(232, 70);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(69, 22);
-            this.radioButton2.TabIndex = 2;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "英寸";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.inchRadioButton.AutoSize = true;
+            this.inchRadioButton.Location = new System.Drawing.Point(206, 58);
+            this.inchRadioButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.inchRadioButton.Name = "inchRadioButton";
+            this.inchRadioButton.Size = new System.Drawing.Size(58, 19);
+            this.inchRadioButton.TabIndex = 2;
+            this.inchRadioButton.TabStop = true;
+            this.inchRadioButton.Text = "英寸";
+            this.inchRadioButton.UseVisualStyleBackColor = true;
             // 
-            // radioButton1
+            // centimetreRadioButton
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(157, 70);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(69, 22);
-            this.radioButton1.TabIndex = 2;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "厘米";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.centimetreRadioButton.AutoSize = true;
+            this.centimetreRadioButton.Location = new System.Drawing.Point(140, 58);
+            this.centimetreRadioButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.centimetreRadioButton.Name = "centimetreRadioButton";
+            this.centimetreRadioButton.Size = new System.Drawing.Size(58, 19);
+            this.centimetreRadioButton.TabIndex = 2;
+            this.centimetreRadioButton.TabStop = true;
+            this.centimetreRadioButton.Text = "厘米";
+            this.centimetreRadioButton.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // resectButton
             // 
-            this.button1.Location = new System.Drawing.Point(260, 30);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(69, 30);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "重置";
-            this.button1.UseVisualStyleBackColor = true;
+            this.resectButton.Location = new System.Drawing.Point(231, 25);
+            this.resectButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.resectButton.Name = "resectButton";
+            this.resectButton.Size = new System.Drawing.Size(61, 25);
+            this.resectButton.TabIndex = 1;
+            this.resectButton.Text = "重置";
+            this.resectButton.UseVisualStyleBackColor = true;
+            this.resectButton.Click += new System.EventHandler(this.ResectButton_Click);
             // 
-            // comboBox1
+            // selectComboBox
             // 
-            this.comboBox1.Font = new System.Drawing.Font("宋体", 10F);
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.selectComboBox.Font = new System.Drawing.Font("宋体", 10F);
+            this.selectComboBox.FormattingEnabled = true;
+            this.selectComboBox.Items.AddRange(new object[] {
             "正方形",
             "长方形",
             "平行四边形",
@@ -150,134 +158,142 @@
             "圆形",
             "扇形",
             "圆环"});
-            this.comboBox1.Location = new System.Drawing.Point(20, 30);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(220, 28);
-            this.comboBox1.TabIndex = 0;
-            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            this.selectComboBox.Location = new System.Drawing.Point(18, 25);
+            this.selectComboBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.selectComboBox.Name = "selectComboBox";
+            this.selectComboBox.Size = new System.Drawing.Size(196, 25);
+            this.selectComboBox.TabIndex = 0;
+            this.selectComboBox.SelectedValueChanged += new System.EventHandler(this.SelectComboBox_SelectedValueChanged);
             // 
-            // groupBox2
+            // downGroupBox
             // 
-            this.groupBox2.Controls.Add(this.button5);
-            this.groupBox2.Controls.Add(this.textBox4);
-            this.groupBox2.Controls.Add(this.label5);
-            this.groupBox2.Controls.Add(this.textBox3);
-            this.groupBox2.Controls.Add(this.label4);
-            this.groupBox2.Controls.Add(this.textBox2);
-            this.groupBox2.Controls.Add(this.label3);
-            this.groupBox2.Controls.Add(this.textBox1);
-            this.groupBox2.Location = new System.Drawing.Point(15, 207);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(351, 349);
-            this.groupBox2.TabIndex = 9;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "计算";
+            this.downGroupBox.Controls.Add(this.calculateButton);
+            this.downGroupBox.Controls.Add(this.resultTextBox);
+            this.downGroupBox.Controls.Add(this.parameterLabelThree);
+            this.downGroupBox.Controls.Add(this.parameterTextBoxThree);
+            this.downGroupBox.Controls.Add(this.parameterLabelTwo);
+            this.downGroupBox.Controls.Add(this.parameterTextBoxTwo);
+            this.downGroupBox.Controls.Add(this.parameterLabelOne);
+            this.downGroupBox.Controls.Add(this.parameterTextBoxOne);
+            this.downGroupBox.Location = new System.Drawing.Point(13, 172);
+            this.downGroupBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.downGroupBox.Name = "downGroupBox";
+            this.downGroupBox.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.downGroupBox.Size = new System.Drawing.Size(312, 291);
+            this.downGroupBox.TabIndex = 9;
+            this.downGroupBox.TabStop = false;
+            this.downGroupBox.Text = "计算";
             // 
-            // button5
+            // calculateButton
             // 
-            this.button5.Location = new System.Drawing.Point(20, 285);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(309, 42);
-            this.button5.TabIndex = 3;
-            this.button5.Text = "计算";
-            this.button5.UseVisualStyleBackColor = true;
+            this.calculateButton.Location = new System.Drawing.Point(18, 237);
+            this.calculateButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.calculateButton.Name = "calculateButton";
+            this.calculateButton.Size = new System.Drawing.Size(275, 35);
+            this.calculateButton.TabIndex = 3;
+            this.calculateButton.Text = "计算";
+            this.calculateButton.UseVisualStyleBackColor = true;
             // 
-            // textBox4
+            // resultTextBox
             // 
-            this.textBox4.Font = new System.Drawing.Font("宋体", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox4.Location = new System.Drawing.Point(20, 28);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(309, 67);
-            this.textBox4.TabIndex = 2;
-            this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
+            this.resultTextBox.Font = new System.Drawing.Font("宋体", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.resultTextBox.Location = new System.Drawing.Point(18, 23);
+            this.resultTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.resultTextBox.Name = "resultTextBox";
+            this.resultTextBox.Size = new System.Drawing.Size(275, 57);
+            this.resultTextBox.TabIndex = 2;
+            this.resultTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // label5
+            // parameterLabelThree
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(17, 187);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(53, 18);
-            this.label5.TabIndex = 1;
-            this.label5.Text = "label";
+            this.parameterLabelThree.AutoSize = true;
+            this.parameterLabelThree.Location = new System.Drawing.Point(15, 156);
+            this.parameterLabelThree.Name = "parameterLabelThree";
+            this.parameterLabelThree.Size = new System.Drawing.Size(47, 15);
+            this.parameterLabelThree.TabIndex = 1;
+            this.parameterLabelThree.Text = "label";
             // 
-            // textBox3
+            // parameterTextBoxThree
             // 
-            this.textBox3.Location = new System.Drawing.Point(85, 184);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(244, 28);
-            this.textBox3.TabIndex = 0;
+            this.parameterTextBoxThree.Location = new System.Drawing.Point(76, 153);
+            this.parameterTextBoxThree.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.parameterTextBoxThree.Name = "parameterTextBoxThree";
+            this.parameterTextBoxThree.Size = new System.Drawing.Size(217, 25);
+            this.parameterTextBoxThree.TabIndex = 0;
             // 
-            // label4
+            // parameterLabelTwo
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(17, 152);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(53, 18);
-            this.label4.TabIndex = 1;
-            this.label4.Text = "label";
+            this.parameterLabelTwo.AutoSize = true;
+            this.parameterLabelTwo.Location = new System.Drawing.Point(15, 127);
+            this.parameterLabelTwo.Name = "parameterLabelTwo";
+            this.parameterLabelTwo.Size = new System.Drawing.Size(47, 15);
+            this.parameterLabelTwo.TabIndex = 1;
+            this.parameterLabelTwo.Text = "label";
             // 
-            // textBox2
+            // parameterTextBoxTwo
             // 
-            this.textBox2.Location = new System.Drawing.Point(85, 149);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(244, 28);
-            this.textBox2.TabIndex = 0;
+            this.parameterTextBoxTwo.Location = new System.Drawing.Point(76, 124);
+            this.parameterTextBoxTwo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.parameterTextBoxTwo.Name = "parameterTextBoxTwo";
+            this.parameterTextBoxTwo.Size = new System.Drawing.Size(217, 25);
+            this.parameterTextBoxTwo.TabIndex = 0;
             // 
-            // label3
+            // parameterLabelOne
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(17, 117);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(53, 18);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "label";
+            this.parameterLabelOne.AutoSize = true;
+            this.parameterLabelOne.Location = new System.Drawing.Point(15, 97);
+            this.parameterLabelOne.Name = "parameterLabelOne";
+            this.parameterLabelOne.Size = new System.Drawing.Size(47, 15);
+            this.parameterLabelOne.TabIndex = 1;
+            this.parameterLabelOne.Text = "label";
             // 
-            // textBox1
+            // parameterTextBoxOne
             // 
-            this.textBox1.Location = new System.Drawing.Point(85, 114);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(244, 28);
-            this.textBox1.TabIndex = 0;
+            this.parameterTextBoxOne.Location = new System.Drawing.Point(76, 95);
+            this.parameterTextBoxOne.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.parameterTextBoxOne.Name = "parameterTextBoxOne";
+            this.parameterTextBoxOne.Size = new System.Drawing.Size(217, 25);
+            this.parameterTextBoxOne.TabIndex = 0;
             // 
-            // 通用面积计算器
+            // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(378, 591);
-            this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.groupBox1);
-            this.MaximumSize = new System.Drawing.Size(400, 647);
-            this.MinimumSize = new System.Drawing.Size(400, 647);
-            this.Name = "通用面积计算器";
+            this.ClientSize = new System.Drawing.Size(340, 500);
+            this.Controls.Add(this.downGroupBox);
+            this.Controls.Add(this.upGroupBox);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.MaximumSize = new System.Drawing.Size(358, 547);
+            this.MinimumSize = new System.Drawing.Size(358, 547);
+            this.Name = "Form1";
             this.Text = "通用面积计算器";
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
+            this.upGroupBox.ResumeLayout(false);
+            this.upGroupBox.PerformLayout();
+            this.downGroupBox.ResumeLayout(false);
+            this.downGroupBox.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.GroupBox upGroupBox;
+        private System.Windows.Forms.Button resectButton;
+        private System.Windows.Forms.ComboBox selectComboBox;
+        private System.Windows.Forms.Label unitLabel;
+        private System.Windows.Forms.RadioButton inchRadioButton;
+        private System.Windows.Forms.RadioButton centimetreRadioButton;
+        private System.Windows.Forms.GroupBox downGroupBox;
+        private System.Windows.Forms.Button helpButton;
+        private System.Windows.Forms.Button SaveHistoryButton;
+        private System.Windows.Forms.Button showHistoryButton;
+        private System.Windows.Forms.TextBox resultTextBox;
+        private System.Windows.Forms.Label parameterLabelThree;
+        private System.Windows.Forms.TextBox parameterTextBoxThree;
+        private System.Windows.Forms.Label parameterLabelTwo;
+        private System.Windows.Forms.TextBox parameterTextBoxTwo;
+        private System.Windows.Forms.Label parameterLabelOne;
+        private System.Windows.Forms.TextBox parameterTextBoxOne;
+        private System.Windows.Forms.Button calculateButton;
     }
 }
 

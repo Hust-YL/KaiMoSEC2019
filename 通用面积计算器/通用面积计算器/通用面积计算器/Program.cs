@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace 通用面积计算器
+namespace Calculator
 {
     static class Program
     {
