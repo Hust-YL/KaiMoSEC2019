@@ -1,0 +1,10 @@
+C:\Users\Unlimited Secret\Desktop\Temp\TeamWork\通用面积计算器\通用面积计算器\bin\Debug\通用面积计算器.exe.config
+C:\Users\Unlimited Secret\Desktop\Temp\TeamWork\通用面积计算器\通用面积计算器\bin\Debug\通用面积计算器.exe
+C:\Users\Unlimited Secret\Desktop\Temp\TeamWork\通用面积计算器\通用面积计算器\bin\Debug\通用面积计算器.pdb
+C:\Users\Unlimited Secret\Desktop\Temp\TeamWork\通用面积计算器\通用面积计算器\obj\Debug\Calculate.csprojAssemblyReference.cache
+C:\Users\Unlimited Secret\Desktop\Temp\TeamWork\通用面积计算器\通用面积计算器\obj\Debug\Calculator.Form1.resources
+C:\Users\Unlimited Secret\Desktop\Temp\TeamWork\通用面积计算器\通用面积计算器\obj\Debug\通用面积计算器.Properties.Resources.resources
+C:\Users\Unlimited Secret\Desktop\Temp\TeamWork\通用面积计算器\通用面积计算器\obj\Debug\Calculate.csproj.GenerateResource.cache
+C:\Users\Unlimited Secret\Desktop\Temp\TeamWork\通用面积计算器\通用面积计算器\obj\Debug\Calculate.csproj.CoreCompileInputs.cache
+C:\Users\Unlimited Secret\Desktop\Temp\TeamWork\通用面积计算器\通用面积计算器\obj\Debug\通用面积计算器.exe
+C:\Users\Unlimited Secret\Desktop\Temp\TeamWork\通用面积计算器\通用面积计算器\obj\Debug\通用面积计算器.pdb

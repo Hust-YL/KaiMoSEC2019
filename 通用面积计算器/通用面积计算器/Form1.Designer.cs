@@ -79,6 +79,7 @@
             this.helpButton.TabIndex = 4;
             this.helpButton.Text = "查看帮助";
             this.helpButton.UseVisualStyleBackColor = true;
+            this.helpButton.Click += new System.EventHandler(this.HelpButton_Click);
             // 
             // SaveHistoryButton
             // 
@@ -89,6 +90,7 @@
             this.SaveHistoryButton.TabIndex = 4;
             this.SaveHistoryButton.Text = "保存记录";
             this.SaveHistoryButton.UseVisualStyleBackColor = true;
+            this.SaveHistoryButton.Click += new System.EventHandler(this.SaveHistoryButton_Click);
             // 
             // showHistoryButton
             // 
@@ -99,6 +101,7 @@
             this.showHistoryButton.TabIndex = 4;
             this.showHistoryButton.Text = "查看记录";
             this.showHistoryButton.UseVisualStyleBackColor = true;
+            this.showHistoryButton.Click += new System.EventHandler(this.ShowHistoryButton_Click);
             // 
             // unitLabel
             // 
@@ -129,7 +132,6 @@
             this.centimetreRadioButton.Name = "centimetreRadioButton";
             this.centimetreRadioButton.Size = new System.Drawing.Size(58, 19);
             this.centimetreRadioButton.TabIndex = 2;
-            this.centimetreRadioButton.TabStop = true;
             this.centimetreRadioButton.Text = "厘米";
             this.centimetreRadioButton.UseVisualStyleBackColor = true;
             // 
@@ -193,6 +195,7 @@
             this.calculateButton.TabIndex = 3;
             this.calculateButton.Text = "计算";
             this.calculateButton.UseVisualStyleBackColor = true;
+            this.calculateButton.Click += new System.EventHandler(this.CalculateButton_Click);
             // 
             // resultTextBox
             // 
