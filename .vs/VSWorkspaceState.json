@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\通用面积计算器"
+    "\\通用面积计算器",
+    "\\通用面积计算器\\通用面积计算器",
+    "\\通用面积计算器\\通用面积计算器\\bin",
+    "\\通用面积计算器\\通用面积计算器\\bin\\Debug"
   ],
   "SelectedNode": "\\通用面积计算器\\通用面积计算器.sln",
   "PreviewInSolutionExplorer": false
