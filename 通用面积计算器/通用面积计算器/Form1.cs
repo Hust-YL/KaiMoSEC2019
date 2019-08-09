@@ -173,6 +173,7 @@ namespace Calculator
         {
             try
             {
+                CheckParameter();
                 switch (selectComboBox.SelectedItem)
                 {
                     case "正方形":
@@ -193,7 +194,6 @@ namespace Calculator
                         SelectCircle();
                         break;
                     case "圆环":
-                        CheckParameter();
                         double torus_parameterone = NeedTransform(this.parameterTextBoxOne.Text);
                         double torus_parametertwo = NeedTransform(this.parameterTextBoxTwo.Text);
                         double torusArea = AreaCalculate.Torus(torus_parameterone, torus_parametertwo);
@@ -207,7 +207,6 @@ namespace Calculator
                         this.resultTextBox.Text = trapezoidArea.ToString();
                         break;
                     case "扇形":
-                        CheckParameter();
                         double sector_parameterone = NeedTransform(this.parameterTextBoxOne.Text);
                         double sector_parametertwo = NeedTransform(this.parameterTextBoxTwo.Text);
                         double sectorArea = AreaCalculate.Sector(sector_parameterone, sector_parametertwo);
@@ -220,7 +219,6 @@ namespace Calculator
                         this.resultTextBox.Text = parallelogramArea.ToString();
                         break;
                     case "三角形（三边）":
-                        CheckParameter();
                         double A_parameterone = NeedTransform(this.parameterTextBoxOne.Text);
                         double A_parametertwo = NeedTransform(this.parameterTextBoxTwo.Text);
                         double A_parameterthree = NeedTransform(this.parameterTextBoxThree.Text);
@@ -238,7 +236,7 @@ namespace Calculator
             }
             catch 
             {
-                MessageBox.Show("参数为零或错误");
+                MessageBox.Show("参数错误!");
             }
         }
 
@@ -259,8 +257,18 @@ namespace Calculator
 
         private void CheckParameter()
         {
-            switch(selectComboBox.SelectedItem)
+            if (double.Parse(this.parameterTextBoxOne.Text) < 0 || double.Parse(this.parameterTextBoxTwo.Text) < 0 || double.Parse(this.parameterTextBoxThree.Text) < 0)
             {
+                throw parameter_error;
+            }
+            switch (selectComboBox.SelectedItem)
+            {
+                case "梯形":
+                    if (double.Parse(this.parameterTextBoxOne.Text) == 0 || double.Parse(this.parameterTextBoxTwo.Text) == 0 || double.Parse(this.parameterTextBoxThree.Text) == 0)
+                    {
+                        throw parameter_error;
+                    }
+                    break;
                 case "圆环":
                     double torus_parameterone = double.Parse(this.parameterTextBoxOne.Text);
                     double torus_parametertwo = double.Parse(this.parameterTextBoxTwo.Text);
@@ -322,5 +330,6 @@ namespace Calculator
         {
             System.Diagnostics.Process.Start("HelpFile.txt");
         }
+
     }
 }
