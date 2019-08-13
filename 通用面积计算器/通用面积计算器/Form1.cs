@@ -257,7 +257,15 @@ namespace Calculator
 
         private void CheckParameter()
         {
-            if (double.Parse(this.parameterTextBoxOne.Text) < 0 || double.Parse(this.parameterTextBoxTwo.Text) < 0 || double.Parse(this.parameterTextBoxThree.Text) < 0)
+            if (double.Parse(this.parameterTextBoxOne.Text) < 0)
+            {
+                throw parameter_error;
+            }
+            if (this.parameterLabelTwo.Visible && double.Parse(this.parameterTextBoxTwo.Text) < 0)
+            {
+                throw parameter_error;
+            }
+            if (this.parameterLabelThree.Visible && double.Parse(this.parameterTextBoxThree.Text) < 0)
             {
                 throw parameter_error;
             }
